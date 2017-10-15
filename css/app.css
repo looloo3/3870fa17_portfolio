@@ -1,7 +1,92 @@
 
 /* selector {property:value;}*/
-nav {border: 1px solid red;}
+/*nav {border: 1px solid red;}*/
+.bigphoto {border: 3px solid white;
+            height: 175px;
+          background-image: url("../images/teal.jpg");
+          background-repeat: fixed;
+          font-family: 'Fascinate Inline', cursive;
+        font-size: 65px;}
 
-#indexpage .mainnavigation li:nth-child(1){background-color: yellow;}
-#portfoliopage .mainnavigation li:nth-child(2){background-color: yellow;}
-#aboutpage .mainnavigation li:nth-child(3){background-color: yellow;}
+
+
+
+.bigheadline{font-size: 50px;}
+
+.testone {border: 1px solid white;
+            height: 300px;
+          font-family: 'Source Serif Pro', serif;
+          font-size: 25px;
+          padding: 6px;}
+
+.testtwo {border: 1px solid white;
+            height: 300px;
+          font-family: 'Source Serif Pro', serif;
+          font-size: 25px;
+          padding: 4px;}
+
+.script{font-size: 30px;}
+
+.logos{font-size: 45px;
+      text-decoration: white underline;}
+
+.gallery{border: solid white 2px;
+        text-decoration: underline;
+          height: 1000px;}
+
+.checked {color: orange;
+          }
+.bio{font-family: 'Source Serif Pro', serif;
+    color: white;
+    font-size: 23px;}
+
+.about{border: solid white 2px;}
+
+.image{display:inline;
+      padding:36px;}
+
+
+
+body {background-color: grey;
+      font-family: 'Fascinate Inline', cursive;}
+
+ul{border: dotted white 2px;}
+
+li {font-size: 25px;
+    color: grey;}
+
+
+
+
+form{font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: black;}
+
+a:link {color: white;}
+
+a:hover {text-decoration: black underline;
+        color: white;}
+
+a:active {color: white;}
+
+label {color: black;
+        font-size: 26px;}
+
+
+
+
+
+
+
+
+/*portfolio page*/
+
+/*feedback page*/
+
+
+
+.feedbackform {padding: 2px;}
+
+.head {color: black;}
+
+.desc {color: black;}
